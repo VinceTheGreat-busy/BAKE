@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.pinimg.com/236x/ae/8b/01/ae8b01cf687d513e061000f1f285cb56.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+header h3 {
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+img {
+    float: inline-start;
+    margin-right: 10px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+#search {
+    margin-left: 50em;
+    padding: 5px;
+    width: 320px;
+}
+
+.body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    padding: 10px;
+    width: 1150px;
+    background-color: white;
+    position: relative;
+    margin: auto;
+    height: fit-content;
+    margin-top: 50px;
+}
+
+#main .nav {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+.nav ul li {
+    display: inline-block;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav li {
+    list-style: none;
+}
+
+.nav li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.nav li a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.dropbtn{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    font-size: 22px;
+    border: none;
+  }
+  
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white; 
+    color: black;
+    padding: 10px;
+}
+
+.sections {
+    height: fit-content;
+    width: auto;
+}
+
+.sections #bakery {
+    height: 500px;
+    width: auto;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: wheat;
+    overflow: scroll;
+}
+
+#bakery h1 {
+    font-size: 3cm;
+}
+
+#bakery p {
+    font-size: 1.5cm;
+}
+
+.c1 {
+    padding: 5px;
+    margin: 15px;
+}
+
+#donuts {
+    height: 150px;
+    padding: 10px;
+    display: flex;
+}
+
+#donuts div {
+    padding: 20px;
+    width: 180px;
+    margin: auto;
+}
+
+#cupcakes {
+    height: 150px;
+    padding: 10px;
+    display: flex;
+}
+
+#cupcakes div {
+    padding: 20px;
+    width: 180px;
+    margin: auto;
+}
+
+#waffle {
+    height: 150px;
+    padding: 10px;
+    display: flex;
+}
+
+#waffle div {
+    padding: 20px;
+    width: 180px;
+    margin: auto;
+}
+
+#cookies {
+    height: 150px;
+    padding: 10px;
+    display: flex;
+}
+
+#cookies div {
+    padding: 20px;
+    width: 180px;
+    margin: auto;
+}
+
+#muffin {
+    height: 150px;
+    padding: 10px;
+    display: flex;
+}
+
+#muffin div {
+    padding: 20px;
+    width: 180px;
+    margin: auto;
+}
+
+#breadsticks {
+    height: 150px;
+    padding: 10px;
+    display: flex;
+}
+
+#breadsticks div {
+    padding: 20px;
+    width: 180px;
+    margin: auto;
+}
+
+#pretzels {
+    height: 150px;
+    padding: 10px;
+    display: flex;
+}
+
+#pretzels div {
+    padding: 20px;
+    width: 180px;
+    margin: auto;
+}
+
+#baguette {
+    height: 150px;
+    padding: 10px;
+    display: flex;
+}
+
+#baguette div {
+    padding: 20px;
+    width: 180px;
+    margin: auto;
+}
+
+#macarons  {
+    height: 150px;
+    padding: 10px;
+    display: flex;
+}
+
+#macarons div {
+    padding: 20px;
+    width: 180px;
+    margin: auto;
+}
+
+div span {
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer {
+    height: fit-content;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.footer div {
+    background-color: rgb(100, 100, 100);
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer div a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.footer div a:hover {
+    color: black;
+    background-color: white;
+}
